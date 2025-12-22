@@ -1,1 +1,56 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>💀 Zebodrome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+            background: #0f0f0f; 
+            color: #e5e5e5; 
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .logo { 
+            font-family: 'Pixelify Sans', cursive; 
+            font-size: 4em; 
+            font-weight: 700; 
+            color: #39ff14;
+            margin-bottom: 30px;
+        }
+        .status {
+            font-size: 2em;
+            color: #8a2be2;
+            margin-bottom: 20px;
+        }
+        .status-icon {
+            font-size: 5em;
+            margin-bottom: 20px;
+            display: inline-block;
+            transform: rotate(180deg);
+            filter: grayscale(100%) brightness(0.7) sepia(100%) hue-rotate(-50deg) saturate(500%);
+        }
+        .message {
+            color: #666;
+            font-size: 1.2em;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">ZEBODROME</div>
+    <div class="status-icon">💀</div>
+    <div class="status">Serveur hors ligne</div>
+    <div class="message">Le serveur n'est pas disponible pour le moment. Réessaie plus tard !</div>
+</body>
+</html>
